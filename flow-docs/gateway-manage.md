@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 180ff4b54fdf395c8524fd1ff132e9adedf1c848
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: 04246007fabacabaf86914f906eee1741df217a1
+ms.sourcegitcommit: b5395b7f3d6610990cbbeeff8f6972224bc2149a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44690387"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "48817952"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-microsoft-flow"></a>จัดการเกตเวย์ข้อมูลภายในองค์กรใน Microsoft Flow
 
@@ -33,16 +33,20 @@ ms.locfileid: "44690387"
 
 เมื่อมีเกตเวย์ คุณจะสามารถเชื่อมต่อข้อมูลภายในองค์กนผ่านการเชื่อมต่อเหล่านี้:
 
+* Apache Impala
+* DB2
+* ระบบไฟล์
+* Http ด้วย Azure AD
+* Informix
+* MySQL
+* ฐานข้อมูล Oracle
+* PostgreSQL
 * SharePoint
 * SQL Server
-* Oracle
-* Informix
-* Filesystem
-* DB2
+* Teradata (แสดงตัวอย่าง)
 
 > [!IMPORTANT]
 > ในตอนนี้ เกตเวย์ข้อมูลของ Microsoft SharePoint สนับสนุนทั้งหมดปริมาณการใช้งานแบบ HTTP และ HTTPS
-
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
