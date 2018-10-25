@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
-manager: anneta
+manager: kvivek
 editor: ''
 tags: ''
 ms.service: flow
@@ -15,18 +15,27 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/31/2017
 ms.author: stepsic
-ms.openlocfilehash: 11c8d9846982cfd372df787b6a7c9e6584d61ae5
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: cfd337180d1517df67864e239b611f6283e3af14
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31001229"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44689789"
 ---
 # <a name="get-started-with-microsoft-flow"></a>เริ่มต้นใช้งาน Microsoft Flow #
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iMteXfAvDSE?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF" frameborder="0" allowfullscreen></iframe>
 
-ยินดีต้อนรับ! Microsoft Flow เป็นบริการที่ช่วยให้คุณสร้างเวิร์กโฟลว์อัตโนมัติระหว่างแอปและบริการโปรดของคุณ เพื่อซิงโครไนซ์ไฟล์ต่าง ๆ รับการแจ้งเตือน เก็บรวบรวมข้อมูล และอื่น ๆ อีกมมายาก
+ยินดีต้อนรับ! Microsoft Flow เป็นบริการที่ช่วยให้คุณสร้างเวิร์กโฟลว์อัตโนมัติระหว่างแอปและบริการที่คุณชื่นชอบเพื่อซิงโครไนซ์ไฟล์ รับการแจ้งเตือน รวบรวมข้อมูลและอื่น ๆ อีกมากมาย
+
+ชนิดของลำดับงานหลักคือ ลำดับงาน [อัตโนมัติ](get-started-logic-flow.md), [ปุ่ม](introduction-to-button-flows.md), [กำหนดเวลา](run-scheduled-tasks.md) และ [กระบวนการทางธุรกิจ](business-process-flows-overview.md)
+
+ถ้าคุณเป็นผู้กำหนดค่า Dynamics 365 customer engagement คุณอาจคุ้นเคยกับ Classic Common Data Service สำหรับกระบวนการของแอปซึ่งรวมถึง [เวิร์กโฟลว์](configure-workflow-steps.md),[การดำเนินการ](create-actions.md), [ลำดับงานของอุปกรณ์เคลื่อนที่](create-mobile-task-flow.md) และ [กล่องโต้ตอบ](use-cds-for-apps-dialogs.md)
 
 ขั้นตอนแรกคือการ[ลงทะเบียน](sign-up-sign-in.md) หรือถ้าคุณมีบัญชีผู้ใช้ Microsoft Flow ให้[ลงชื่อเข้าใช้](https://flow.microsoft.com/signin)บนแท็บเล็ต คอมพิวเตอร์เดสก์ท็อป หรือแม้แต่โทรศัพท์ของคุณ
 
