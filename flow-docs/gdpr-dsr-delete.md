@@ -307,15 +307,14 @@ Remove-AdminFlowUserDetails -UserId 1b6759b9-bbea-43b6-9f3e-1af6206e0e80
 1. เปิด URL ต่อไปนี้ในเบราว์เซอร์ ตรวจสอบให้แน่ใจว่าได้แทนที่อยู่อีเมลของคุณใน URL:[ https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1 ](https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1)
 1. ถ้าคุณเป็นสมาชิกของ**ผู้เช่าที่ไม่มีการจัดการ** คุณจะเห็น `"IsViral": true` จากการตอบสนอง
 
-    {
 
-     "เข้าสู่ระบบ": "foobar@unmanagedcontoso.com",
-
-    "DomainName": "unmanagedcontoso.com"
-
-    "IsViral": **true**
-    
-    }
+```JSON
+{
+  "เข้าสู่ระบบ": "foobar@unmanagedcontoso.com",
+  "DomainName": "unmanagedcontoso.com",
+  "IsViral": true
+}
+ ```
 
 1. มิฉะนั้น คุณอยู่ในผู้เช่าที่มีการจัดการ
 
